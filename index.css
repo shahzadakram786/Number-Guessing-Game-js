@@ -16,9 +16,10 @@ body{background-color: black;
    /* filter: brightness(0.); */
 
 } 
-
+ 
+ 
 .main{
-    background-image:linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0)) url(/Abstract-Brain.jpg);
+    background-image:linear-gradient(rgb(124, 124, 166), rgba(255, 255, 0, 0)), url(/Abstract-Brain.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     opacity: 1;
@@ -29,7 +30,7 @@ body{background-color: black;
     width: 50%;
     border-radius: 15px ;
     box-shadow: 3px 2px 20px wheat;
-    height: 25rem;
+    height: 35rem;
 }
 .main img {
     width: 100%;
@@ -64,4 +65,8 @@ body{background-color: black;
     transition: 0.5s ease-in-out ;
     box-shadow:2px 3px 5px grey;
 
+}
+
+.submain{ 
+    margin: 4rem;
 }
