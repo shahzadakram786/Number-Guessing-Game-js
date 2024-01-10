@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{background-color: black;
+}
+.container{
+    background-image: url(/870316-video-game-backgrounds-1920x1080-for-xiaomi.jpg);   
+    object-fit: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52.9em;
+   /* filter: brightness(0.); */
+
+} 
+
+.main{
+    
+    opacity: 1;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    width: 50%;
+    border-radius: 15px ;
+    box-shadow: 3px 2px 20px wheat;
+}
+
+.main input{
+    font-size: 20px;
+    width: 20%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 10px black;
+}
+
+.main .button{
+    width:23% ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 2px solid white;
+   margin-top: 10px;
+   box-shadow:inset 1px 1px 10px black;
+    border: none;
+}
+
+.main .button:hover{
+    
+    cursor: pointer;
+    color: black;
+    background-color: orange;
+    transition: 0.5s ease-in-out ;
+    box-shadow:2px 3px 5px grey;
+
+}
