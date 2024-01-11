@@ -3,7 +3,8 @@
     padding: 0;
 
 }
-body{background-color: black;
+body{
+    background-color: black;
 }
 
 
@@ -29,7 +30,6 @@ p {
     font-size: 0.9rem;
 
     color:black;
-    /* white-space: 3; */
     letter-spacing: 2px;
     font-weight: bolder;
     text-shadow: 5px 5px 10px black ;
@@ -37,11 +37,18 @@ p {
     /* background-color: #11000019;  */
 
 }
+
+canvas{
+position: absolute;
+z-index: -1;
+top: 0;
+}
 .main{
     background-image:linear-gradient(rgb(124, 124, 166), rgba(255, 255, 0, 0)), url(/Abstract-Brain.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     opacity: 1;
+    /* margin-right:15em ; */
     padding: 10px;
     margin-top: 2remz;
     text-align: center;
@@ -58,6 +65,7 @@ p {
 
 .main input{
     font-size: 1rem;
+    text-wrap: wrap;
     width: 20%;
     padding: 0.8rem;
     border: none;

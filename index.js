@@ -15,10 +15,24 @@ button.addEventListener('click',() =>{
         jsConfetti.addConfetti();
         output.innerHTML= "Congratulations you have selected the right Number";
         output.style.color="yellow";
-        
-        
+    }
+
+    else if(isNaN(a)){
+        output.innerHTML = "the data type you entered is wrong ";
+        output.style.color= "red";asd
+        output.style.textShadow= "15px 25px 10px black";
+        console.log("cliked")
 
     }
+
+    else if(a += !isNaN(a)){
+        output.innerHTML = "dont add the number with sitring write just number ";
+        output.style.color= "red";
+        output.style.textShadow= "15px 25px 10px black";
+        console.log("cliked")
+
+    }
+
     else{
         // console.log('soory you should Try again')
         output.innerHTML="Sorry, that was incorrect.";
