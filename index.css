@@ -5,6 +5,9 @@
 }
 body{background-color: black;
 }
+
+
+
 .container{
     background-image: url(/870316-video-game-backgrounds-1920x1080-for-xiaomi.jpg);   
     object-fit: cover;
@@ -16,8 +19,24 @@ body{background-color: black;
    /* filter: brightness(0.); */
 
 } 
- 
- 
+
+h1 ,h2 {
+    color: rgb(22, 22, 113);
+    text-shadow: 2px 2px 10px white ; 
+}
+
+p {
+    font-size: 0.9rem;
+
+    color:black;
+    /* white-space: 3; */
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px black ;
+     
+    /* background-color: #11000019;  */
+
+}
 .main{
     background-image:linear-gradient(rgb(124, 124, 166), rgba(255, 255, 0, 0)), url(/Abstract-Brain.jpg);
     background-size:cover;

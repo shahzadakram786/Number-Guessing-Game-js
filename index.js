@@ -1,17 +1,21 @@
-let input  = document.getElementById("input")
-let button = document.getElementById("button")
-let output = document.getElementById("h4")
+const input  = document.getElementById("input")
+const button = document.getElementById("button")
+const output = document.getElementById("h4")
+const canvas = document.getElementById("confetti")
 
+let jsConfetti = new JSConfetti;
 
-button.addEventListener('click',function(){
+button.addEventListener('click',() =>{
     let a = parseInt(input.value);
-    let b = 7 
+    let b = 7 ;
     if(a === b ){
+
         // console.log("Congratulation you have selected the right number")
         let result = number(a);
+        jsConfetti.addConfetti();
         output.innerHTML= "Congratulations you have selected the right Number";
         output.style.color="yellow";
-        output.style.opacity= '1';
+        
         
 
     }
