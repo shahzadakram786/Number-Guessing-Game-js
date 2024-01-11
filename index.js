@@ -19,9 +19,9 @@ button.addEventListener('click',() =>{
     }
 
     else if(isNaN(a)){
-        output.innerHTML = "the data type you entered is wrong ";
-        output.style.color= "red";asd
-        output.style.textShadow= "2px 2px 10px black";
+        output.innerHTML = "The data type you entered is wrong ";
+        output.style.color= "red";
+        output.style.textShadow= "2px 2px 10px white";
         console.log("cliked")
 
     }
