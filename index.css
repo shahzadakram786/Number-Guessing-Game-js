@@ -21,22 +21,24 @@ body{
 
 } 
 
-h1 ,h2 {
+h1 ,h2, p{
     color: rgb(22, 22, 113);
+    font-weight: bolder;
     text-shadow: 2px 2px 10px white ; 
 }
+p{
+    word-spacing: 3px;
+}
 
-p {
-    font-size: 0.9rem;
-
-    color:black;
+/* p {
+    font-size: 1rem;
+    color:rgb(49, 4, 172);
     letter-spacing: 2px;
     font-weight: bolder;
     text-shadow: 5px 5px 10px black ;
      
     /* background-color: #11000019;  */
-
-}
+ */
 
 canvas{
 position: absolute;
@@ -44,7 +46,7 @@ z-index: -1;
 top: 0;
 }
 .main{
-    background-image:linear-gradient(rgb(124, 124, 166), rgba(255, 255, 0, 0)), url(/Abstract-Brain.jpg);
+    background-image:linear-gradient(rgb(124, 124, 166), rgba(17, 198, 243, 0.157)), url(/Abstract-Brain.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     opacity: 1;
